@@ -1,0 +1,127 @@
+{
+  "calibration_test": {
+    "probe": {
+      "ece_raw": 0.2937,
+      "ece_cal": 0.0153,
+      "brier_raw": 0.15150000154972076,
+      "brier_cal": 0.05730000138282776,
+      "auroc_after_cal": 0.746
+    },
+    "retrieval": {
+      "ece_raw": 0.0282,
+      "ece_cal": 0.0169,
+      "brier_raw": 0.06040000170469284,
+      "brier_cal": 0.057999998331069946,
+      "auroc_after_cal": 0.7526
+    },
+    "random_control": {
+      "ece_raw": 0.0297,
+      "ece_cal": 0.0167,
+      "brier_raw": 0.06069999933242798,
+      "brier_cal": 0.05810000002384186,
+      "auroc_after_cal": 0.7504
+    },
+    "ece_cal_retrieval_minus_probe": {
+      "mean": 0.0016,
+      "p": 0.0103
+    }
+  },
+  "ensembles_test_auroc": {
+    "probe": {
+      "mean": 0.746,
+      "std": 0.0038
+    },
+    "retrieval": {
+      "mean": 0.7526,
+      "std": 0.0062
+    },
+    "probe + retrieval": {
+      "mean": 0.7645,
+      "std": 0.005
+    },
+    "probe + random_control": {
+      "mean": 0.7643,
+      "std": 0.0086
+    },
+    "probe + probe(next seed)": {
+      "mean": 0.7518,
+      "std": 0.0012
+    },
+    "retrieval + retrieval(next seed)": {
+      "mean": 0.7637,
+      "std": 0.004
+    },
+    "retrieval + random_control": {
+      "mean": 0.7547,
+      "std": 0.0083
+    },
+    "probe + retrieval (raw probs)": {
+      "mean": 0.7593,
+      "std": 0.0036
+    },
+    "probe + retrieval vs probe + random_control": {
+      "mean": 0.0002,
+      "positive": 3,
+      "p": 0.9195
+    },
+    "probe + retrieval vs probe + probe(next seed)": {
+      "mean": 0.0127,
+      "positive": 5,
+      "p": 0.0042
+    },
+    "probe + random_control vs probe + probe(next seed)": {
+      "mean": 0.0125,
+      "positive": 4,
+      "p": 0.0288
+    },
+    "probe + retrieval vs retrieval + retrieval(next seed)": {
+      "mean": 0.0008,
+      "positive": 2,
+      "p": 0.6764
+    }
+  },
+  "gates_calibrated": {
+    "top1_sim": {
+      "test_mean": 0.7538,
+      "vs_probe": 0.0077,
+      "vs_retrieval": 0.0012,
+      "p_vs_retrieval": 0.5907,
+      "rule": "retrieval when above 0.4664"
+    },
+    "mean_sim": {
+      "test_mean": 0.7538,
+      "vs_probe": 0.0078,
+      "vs_retrieval": 0.0013,
+      "p_vs_retrieval": 0.4652,
+      "rule": "retrieval when below 0.5168"
+    },
+    "sim_gap": {
+      "test_mean": 0.7489,
+      "vs_probe": 0.0029,
+      "vs_retrieval": -0.0036,
+      "p_vs_retrieval": 0.0693,
+      "rule": "retrieval when above 0.0605"
+    },
+    "nb_consensus": {
+      "test_mean": 0.7547,
+      "vs_probe": 0.0087,
+      "vs_retrieval": 0.0022,
+      "p_vs_retrieval": 0.357,
+      "rule": "retrieval when above 0.1000"
+    },
+    "probe_nb_agree": {
+      "test_mean": 0.7458,
+      "vs_probe": -0.0002,
+      "vs_retrieval": -0.0067,
+      "p_vs_retrieval": 0.0005,
+      "rule": "retrieval when above 0.7012"
+    },
+    "probe_entropy": {
+      "test_mean": 0.7508,
+      "vs_probe": 0.0047,
+      "vs_retrieval": -0.0018,
+      "p_vs_retrieval": 0.2235,
+      "rule": "retrieval when below 0.6510"
+    }
+  }
+}

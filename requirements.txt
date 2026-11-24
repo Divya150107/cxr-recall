@@ -1,0 +1,11 @@
+torch>=2.2
+torchvision>=0.17
+transformers>=4.40
+faiss-cpu>=1.8
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+PyYAML>=6.0
+tqdm>=4.66
+Pillow>=10.0
+pytest>=8.0

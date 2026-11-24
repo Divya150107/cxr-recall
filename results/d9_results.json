@@ -1,0 +1,213 @@
+{
+  "arms_test": {
+    "probe": {
+      "mean": 0.7461,
+      "std": 0.0038
+    },
+    "retrieval": {
+      "mean": 0.7526,
+      "std": 0.0062
+    },
+    "random_control": {
+      "mean": 0.7505,
+      "std": 0.0121
+    }
+  },
+  "arms_val": {
+    "probe": {
+      "mean": 0.7573,
+      "std": 0.0033
+    },
+    "retrieval": {
+      "mean": 0.7665,
+      "std": 0.0064
+    },
+    "random_control": {
+      "mean": 0.7636,
+      "std": 0.0067
+    }
+  },
+  "margins_test": {
+    "margin_retr_vs_probe": {
+      "mean": 0.0065,
+      "std": 0.0061,
+      "positive": 4,
+      "n": 5,
+      "ci95": [
+        -0.001,
+        0.014
+      ],
+      "p_ttest": 0.0748
+    },
+    "margin_retr_vs_random": {
+      "mean": 0.0021,
+      "std": 0.0061,
+      "positive": 3,
+      "n": 5,
+      "ci95": [
+        -0.0055,
+        0.0097
+      ],
+      "p_ttest": 0.4874
+    },
+    "margin_random_vs_probe": {
+      "mean": 0.0044,
+      "std": 0.0118,
+      "positive": 3,
+      "n": 5,
+      "ci95": [
+        -0.0102,
+        0.019
+      ],
+      "p_ttest": 0.4501
+    }
+  },
+  "retrieval_p_at_5": {
+    "val": 0.3252,
+    "test": 0.3211
+  },
+  "image_share_retrieval": {
+    "mean": 0.9592,
+    "std": 0.008
+  },
+  "leakage_rate": 0.0539,
+  "any_selected_run_hit_cap": false,
+  "vit_reference_not_paired": {
+    "baseline_test": 0.7131,
+    "cxr_recall_test": 0.709,
+    "margin_test": -0.0042
+  },
+  "per_seed": [
+    {
+      "seed": 0,
+      "probe_val": 0.758,
+      "probe_test": 0.7416,
+      "probe_lr": 0.0001,
+      "probe_epoch": 73,
+      "probe_hit_cap": false,
+      "retrieval_val": 0.7628,
+      "retrieval_test": 0.7432,
+      "retrieval_lr": 0.0003,
+      "retrieval_epoch": 2,
+      "retrieval_hit_cap": false,
+      "retrieval_shift_full": 0.0221,
+      "retrieval_shift_img": 0.0209,
+      "random_control_val": 0.7597,
+      "random_control_test": 0.7324,
+      "random_control_lr": 0.0003,
+      "random_control_epoch": 2,
+      "random_control_hit_cap": false,
+      "random_control_shift_full": 0.0125,
+      "random_control_shift_img": 0.0122,
+      "margin_retr_vs_probe": 0.0016,
+      "margin_retr_vs_random": 0.0108,
+      "margin_random_vs_probe": -0.0092,
+      "minutes": 1.0
+    },
+    {
+      "seed": 1,
+      "probe_val": 0.7605,
+      "probe_test": 0.7506,
+      "probe_lr": 0.0003,
+      "probe_epoch": 20,
+      "probe_hit_cap": false,
+      "retrieval_val": 0.7743,
+      "retrieval_test": 0.7498,
+      "retrieval_lr": 0.0001,
+      "retrieval_epoch": 3,
+      "retrieval_hit_cap": false,
+      "retrieval_shift_full": 0.0166,
+      "retrieval_shift_img": 0.0159,
+      "random_control_val": 0.7689,
+      "random_control_test": 0.7455,
+      "random_control_lr": 0.0001,
+      "random_control_epoch": 3,
+      "random_control_hit_cap": false,
+      "random_control_shift_full": 0.01,
+      "random_control_shift_img": 0.0097,
+      "margin_retr_vs_probe": -0.0008,
+      "margin_retr_vs_random": 0.0043,
+      "margin_random_vs_probe": -0.0051,
+      "minutes": 1.0
+    },
+    {
+      "seed": 2,
+      "probe_val": 0.756,
+      "probe_test": 0.748,
+      "probe_lr": 0.0001,
+      "probe_epoch": 78,
+      "probe_hit_cap": false,
+      "retrieval_val": 0.758,
+      "retrieval_test": 0.755,
+      "retrieval_lr": 0.0001,
+      "retrieval_epoch": 3,
+      "retrieval_hit_cap": false,
+      "retrieval_shift_full": 0.0191,
+      "retrieval_shift_img": 0.0184,
+      "random_control_val": 0.7561,
+      "random_control_test": 0.752,
+      "random_control_lr": 0.0001,
+      "random_control_epoch": 3,
+      "random_control_hit_cap": false,
+      "random_control_shift_full": 0.012,
+      "random_control_shift_img": 0.0117,
+      "margin_retr_vs_probe": 0.007,
+      "margin_retr_vs_random": 0.003,
+      "margin_random_vs_probe": 0.004,
+      "minutes": 1.0
+    },
+    {
+      "seed": 3,
+      "probe_val": 0.7598,
+      "probe_test": 0.7426,
+      "probe_lr": 0.001,
+      "probe_epoch": 5,
+      "probe_hit_cap": false,
+      "retrieval_val": 0.7663,
+      "retrieval_test": 0.7558,
+      "retrieval_lr": 0.0001,
+      "retrieval_epoch": 3,
+      "retrieval_hit_cap": false,
+      "retrieval_shift_full": 0.0167,
+      "retrieval_shift_img": 0.0161,
+      "random_control_val": 0.7722,
+      "random_control_test": 0.7598,
+      "random_control_lr": 0.0001,
+      "random_control_epoch": 3,
+      "random_control_hit_cap": false,
+      "random_control_shift_full": 0.0108,
+      "random_control_shift_img": 0.0104,
+      "margin_retr_vs_probe": 0.0132,
+      "margin_retr_vs_random": -0.004,
+      "margin_random_vs_probe": 0.0172,
+      "minutes": 0.9
+    },
+    {
+      "seed": 4,
+      "probe_val": 0.7523,
+      "probe_test": 0.7475,
+      "probe_lr": 0.001,
+      "probe_epoch": 5,
+      "probe_hit_cap": false,
+      "retrieval_val": 0.7709,
+      "retrieval_test": 0.759,
+      "retrieval_lr": 0.0001,
+      "retrieval_epoch": 3,
+      "retrieval_hit_cap": false,
+      "retrieval_shift_full": 0.0171,
+      "retrieval_shift_img": 0.0165,
+      "random_control_val": 0.761,
+      "random_control_test": 0.7626,
+      "random_control_lr": 0.0001,
+      "random_control_epoch": 3,
+      "random_control_hit_cap": false,
+      "random_control_shift_full": 0.0093,
+      "random_control_shift_img": 0.009,
+      "margin_retr_vs_probe": 0.0115,
+      "margin_retr_vs_random": -0.0036,
+      "margin_random_vs_probe": 0.0151,
+      "minutes": 1.0
+    }
+  ],
+  "verdict": "No reliable gain from retrieval even with the better encoder."
+}

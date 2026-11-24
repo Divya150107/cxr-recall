@@ -1,0 +1,22 @@
+probe C=0.1    val macro AUROC=0.7103
+probe C=1.0    val macro AUROC=0.7073
+probe C=10.0   val macro AUROC=0.7078
+probe C=100.0  val macro AUROC=0.7005
+-> probe C=0.1: val 0.7103, test 0.6834
+
+VAL (746 queries -> 5977 train), random baseline 0.1918
+  plain cosine                       label_agreement@5=0.2861  MRR=0.4173
+  soft beta=0.5                      label_agreement@5=0.2853  MRR=0.4133
+  soft beta=1.0                      label_agreement@5=0.2810  MRR=0.3996
+  soft beta=2.0                      label_agreement@5=0.2764  MRR=0.4052
+  hard top 10% dims                  label_agreement@5=0.2786  MRR=0.4083
+  hard top 25% dims                  label_agreement@5=0.2836  MRR=0.4116
+  hard top 50% dims                  label_agreement@5=0.2869  MRR=0.4197
+  rerank top-20 by hard top 50% dims label_agreement@5=0.2869  MRR=0.4197
+  rerank top-50 by hard top 50% dims label_agreement@5=0.2869  MRR=0.4197
+
+chosen on val: hard top 50% dims (0.2869 vs plain 0.2861)
+
+TEST (743 queries), random baseline 0.1950
+  label_agreement@5    plain=0.2732 hard top 50% dims=0.2697 diff=-0.0035 95% CI [-0.0113, +0.0046] Wilcoxon p=0.4384 boot p~0.3852 -> not significant
+  MRR                  plain=0.3917 hard top 50% dims=0.3918 diff=+0.0001 95% CI [-0.0109, +0.0112] Wilcoxon p=0.9597 boot p~0.9846 -> not significant

@@ -1,0 +1,926 @@
+{
+  "d9_replication": {
+    "probe": 0.7461,
+    "retrieval": 0.7526,
+    "random_control": 0.7505
+  },
+  "heterogeneity": {
+    "vs_probe": {
+      "overall_test": 0.26695,
+      "overall_test_ci": [
+        0.25733,
+        0.27655
+      ],
+      "top1_sim": {
+        "spearman_val": 0.0098,
+        "p_val": 0.7894,
+        "spearman_test": -0.0222,
+        "p_test": 0.5457,
+        "bands": [
+          {
+            "band": 0,
+            "n": 133,
+            "val_mean": 0.24595,
+            "test_mean": 0.25863,
+            "test_ci": [
+              0.23278,
+              0.28258
+            ]
+          },
+          {
+            "band": 1,
+            "n": 146,
+            "val_mean": 0.2682,
+            "test_mean": 0.2736,
+            "test_ci": [
+              0.25193,
+              0.29467
+            ]
+          },
+          {
+            "band": 2,
+            "n": 144,
+            "val_mean": 0.27239,
+            "test_mean": 0.27243,
+            "test_ci": [
+              0.25179,
+              0.29162
+            ]
+          },
+          {
+            "band": 3,
+            "n": 175,
+            "val_mean": 0.26384,
+            "test_mean": 0.2671,
+            "test_ci": [
+              0.24506,
+              0.28699
+            ]
+          },
+          {
+            "band": 4,
+            "n": 145,
+            "val_mean": 0.24942,
+            "test_mean": 0.26226,
+            "test_ci": [
+              0.23762,
+              0.2834
+            ]
+          }
+        ]
+      },
+      "mean_sim": {
+        "spearman_val": 0.0297,
+        "p_val": 0.4184,
+        "spearman_test": 0.0018,
+        "p_test": 0.9618,
+        "bands": [
+          {
+            "band": 0,
+            "n": 141,
+            "val_mean": 0.23415,
+            "test_mean": 0.24492,
+            "test_ci": [
+              0.21889,
+              0.26958
+            ]
+          },
+          {
+            "band": 1,
+            "n": 141,
+            "val_mean": 0.2866,
+            "test_mean": 0.27519,
+            "test_ci": [
+              0.25395,
+              0.2955
+            ]
+          },
+          {
+            "band": 2,
+            "n": 154,
+            "val_mean": 0.25451,
+            "test_mean": 0.27416,
+            "test_ci": [
+              0.25299,
+              0.29378
+            ]
+          },
+          {
+            "band": 3,
+            "n": 154,
+            "val_mean": 0.26732,
+            "test_mean": 0.28062,
+            "test_ci": [
+              0.2596,
+              0.29835
+            ]
+          },
+          {
+            "band": 4,
+            "n": 153,
+            "val_mean": 0.25715,
+            "test_mean": 0.25864,
+            "test_ci": [
+              0.23391,
+              0.28169
+            ]
+          }
+        ]
+      },
+      "sim_gap": {
+        "spearman_val": -0.0616,
+        "p_val": 0.0925,
+        "spearman_test": -0.0667,
+        "p_test": 0.069,
+        "bands": [
+          {
+            "band": 0,
+            "n": 117,
+            "val_mean": 0.26486,
+            "test_mean": 0.28111,
+            "test_ci": [
+              0.25272,
+              0.30574
+            ]
+          },
+          {
+            "band": 1,
+            "n": 186,
+            "val_mean": 0.25982,
+            "test_mean": 0.26951,
+            "test_ci": [
+              0.25095,
+              0.28685
+            ]
+          },
+          {
+            "band": 2,
+            "n": 154,
+            "val_mean": 0.2688,
+            "test_mean": 0.26275,
+            "test_ci": [
+              0.23899,
+              0.28543
+            ]
+          },
+          {
+            "band": 3,
+            "n": 138,
+            "val_mean": 0.26613,
+            "test_mean": 0.2662,
+            "test_ci": [
+              0.24569,
+              0.28654
+            ]
+          },
+          {
+            "band": 4,
+            "n": 148,
+            "val_mean": 0.24022,
+            "test_mean": 0.25761,
+            "test_ci": [
+              0.23288,
+              0.28042
+            ]
+          }
+        ]
+      },
+      "nb_consensus": {
+        "spearman_val": 0.1664,
+        "p_val": 0.0,
+        "spearman_test": 0.1032,
+        "p_test": 0.0048,
+        "bands": [
+          {
+            "band": 0,
+            "n": 101,
+            "val_mean": 0.23972,
+            "test_mean": 0.23695,
+            "test_ci": [
+              0.20765,
+              0.26531
+            ]
+          },
+          {
+            "band": 1,
+            "n": 178,
+            "val_mean": 0.25557,
+            "test_mean": 0.25984,
+            "test_ci": [
+              0.23553,
+              0.2818
+            ]
+          },
+          {
+            "band": 2,
+            "n": 136,
+            "val_mean": 0.2368,
+            "test_mean": 0.24684,
+            "test_ci": [
+              0.22268,
+              0.2706
+            ]
+          },
+          {
+            "band": 3,
+            "n": 175,
+            "val_mean": 0.26053,
+            "test_mean": 0.27855,
+            "test_ci": [
+              0.25984,
+              0.29685
+            ]
+          },
+          {
+            "band": 4,
+            "n": 153,
+            "val_mean": 0.29985,
+            "test_mean": 0.29964,
+            "test_ci": [
+              0.28276,
+              0.31569
+            ]
+          }
+        ]
+      },
+      "probe_nb_agree": {
+        "spearman_val": -0.0677,
+        "p_val": 0.0648,
+        "spearman_test": -0.1267,
+        "p_test": 0.0005,
+        "bands": [
+          {
+            "band": 0,
+            "n": 123,
+            "val_mean": 0.25322,
+            "test_mean": 0.25388,
+            "test_ci": [
+              0.22565,
+              0.27888
+            ]
+          },
+          {
+            "band": 1,
+            "n": 163,
+            "val_mean": 0.25997,
+            "test_mean": 0.28458,
+            "test_ci": [
+              0.26454,
+              0.30324
+            ]
+          },
+          {
+            "band": 2,
+            "n": 149,
+            "val_mean": 0.28085,
+            "test_mean": 0.27357,
+            "test_ci": [
+              0.25001,
+              0.29494
+            ]
+          },
+          {
+            "band": 3,
+            "n": 170,
+            "val_mean": 0.26515,
+            "test_mean": 0.27413,
+            "test_ci": [
+              0.25733,
+              0.29071
+            ]
+          },
+          {
+            "band": 4,
+            "n": 138,
+            "val_mean": 0.24067,
+            "test_mean": 0.2418,
+            "test_ci": [
+              0.21459,
+              0.26582
+            ]
+          }
+        ]
+      },
+      "probe_entropy": {
+        "spearman_val": 0.0684,
+        "p_val": 0.0619,
+        "spearman_test": 0.0822,
+        "p_test": 0.025,
+        "bands": [
+          {
+            "band": 0,
+            "n": 131,
+            "val_mean": 0.2542,
+            "test_mean": 0.27815,
+            "test_ci": [
+              0.25996,
+              0.29481
+            ]
+          },
+          {
+            "band": 1,
+            "n": 140,
+            "val_mean": 0.26027,
+            "test_mean": 0.26855,
+            "test_ci": [
+              0.24381,
+              0.29145
+            ]
+          },
+          {
+            "band": 2,
+            "n": 158,
+            "val_mean": 0.26652,
+            "test_mean": 0.27171,
+            "test_ci": [
+              0.25009,
+              0.29277
+            ]
+          },
+          {
+            "band": 3,
+            "n": 157,
+            "val_mean": 0.27423,
+            "test_mean": 0.25325,
+            "test_ci": [
+              0.2319,
+              0.27467
+            ]
+          },
+          {
+            "band": 4,
+            "n": 157,
+            "val_mean": 0.2446,
+            "test_mean": 0.2651,
+            "test_ci": [
+              0.24058,
+              0.28875
+            ]
+          }
+        ]
+      }
+    },
+    "vs_random": {
+      "overall_test": 0.00182,
+      "overall_test_ci": [
+        0.00047,
+        0.00313
+      ],
+      "top1_sim": {
+        "spearman_val": -0.0742,
+        "p_val": 0.0428,
+        "spearman_test": -0.0031,
+        "p_test": 0.9322,
+        "bands": [
+          {
+            "band": 0,
+            "n": 133,
+            "val_mean": 0.00176,
+            "test_mean": 0.00397,
+            "test_ci": [
+              0.00042,
+              0.00741
+            ]
+          },
+          {
+            "band": 1,
+            "n": 146,
+            "val_mean": 0.00513,
+            "test_mean": 0.00133,
+            "test_ci": [
+              -0.00237,
+              0.00512
+            ]
+          },
+          {
+            "band": 2,
+            "n": 144,
+            "val_mean": 0.00298,
+            "test_mean": 0.00096,
+            "test_ci": [
+              -0.00171,
+              0.00361
+            ]
+          },
+          {
+            "band": 3,
+            "n": 175,
+            "val_mean": -0.0005,
+            "test_mean": 0.00194,
+            "test_ci": [
+              -0.00063,
+              0.00442
+            ]
+          },
+          {
+            "band": 4,
+            "n": 145,
+            "val_mean": -0.00021,
+            "test_mean": 0.00103,
+            "test_ci": [
+              -0.00187,
+              0.00386
+            ]
+          }
+        ]
+      },
+      "mean_sim": {
+        "spearman_val": -0.0586,
+        "p_val": 0.1095,
+        "spearman_test": -0.0053,
+        "p_test": 0.8863,
+        "bands": [
+          {
+            "band": 0,
+            "n": 141,
+            "val_mean": 0.002,
+            "test_mean": 0.00324,
+            "test_ci": [
+              -0.00023,
+              0.00679
+            ]
+          },
+          {
+            "band": 1,
+            "n": 141,
+            "val_mean": 0.00399,
+            "test_mean": 0.00186,
+            "test_ci": [
+              -0.00149,
+              0.00542
+            ]
+          },
+          {
+            "band": 2,
+            "n": 154,
+            "val_mean": 0.00314,
+            "test_mean": 0.00123,
+            "test_ci": [
+              -0.00135,
+              0.00383
+            ]
+          },
+          {
+            "band": 3,
+            "n": 154,
+            "val_mean": -0.00074,
+            "test_mean": 0.00063,
+            "test_ci": [
+              -0.00238,
+              0.00352
+            ]
+          },
+          {
+            "band": 4,
+            "n": 153,
+            "val_mean": 0.00078,
+            "test_mean": 0.00225,
+            "test_ci": [
+              -0.00021,
+              0.00471
+            ]
+          }
+        ]
+      },
+      "sim_gap": {
+        "spearman_val": -0.0578,
+        "p_val": 0.1148,
+        "spearman_test": -0.0028,
+        "p_test": 0.9392,
+        "bands": [
+          {
+            "band": 0,
+            "n": 117,
+            "val_mean": 0.00172,
+            "test_mean": 0.00462,
+            "test_ci": [
+              0.00105,
+              0.0084
+            ]
+          },
+          {
+            "band": 1,
+            "n": 186,
+            "val_mean": 0.00322,
+            "test_mean": 0.00098,
+            "test_ci": [
+              -0.00161,
+              0.00376
+            ]
+          },
+          {
+            "band": 2,
+            "n": 154,
+            "val_mean": 0.00188,
+            "test_mean": 0.00037,
+            "test_ci": [
+              -0.00259,
+              0.00347
+            ]
+          },
+          {
+            "band": 3,
+            "n": 138,
+            "val_mean": 0.00271,
+            "test_mean": 0.00146,
+            "test_ci": [
+              -0.00185,
+              0.00496
+            ]
+          },
+          {
+            "band": 4,
+            "n": 148,
+            "val_mean": -0.00036,
+            "test_mean": 0.00248,
+            "test_ci": [
+              -0.00014,
+              0.00512
+            ]
+          }
+        ]
+      },
+      "nb_consensus": {
+        "spearman_val": -0.0016,
+        "p_val": 0.966,
+        "spearman_test": 0.0168,
+        "p_test": 0.6484,
+        "bands": [
+          {
+            "band": 0,
+            "n": 101,
+            "val_mean": 0.00016,
+            "test_mean": -0.00166,
+            "test_ci": [
+              -0.00614,
+              0.00289
+            ]
+          },
+          {
+            "band": 1,
+            "n": 178,
+            "val_mean": 0.00263,
+            "test_mean": 0.00303,
+            "test_ci": [
+              -0.00013,
+              0.00606
+            ]
+          },
+          {
+            "band": 2,
+            "n": 136,
+            "val_mean": 0.00304,
+            "test_mean": 0.00325,
+            "test_ci": [
+              0.00041,
+              0.00616
+            ]
+          },
+          {
+            "band": 3,
+            "n": 175,
+            "val_mean": 0.00347,
+            "test_mean": 0.00222,
+            "test_ci": [
+              -0.00063,
+              0.00494
+            ]
+          },
+          {
+            "band": 4,
+            "n": 153,
+            "val_mean": -0.00083,
+            "test_mean": 0.00096,
+            "test_ci": [
+              -0.00106,
+              0.00304
+            ]
+          }
+        ]
+      },
+      "probe_nb_agree": {
+        "spearman_val": -0.0457,
+        "p_val": 0.212,
+        "spearman_test": -0.0834,
+        "p_test": 0.023,
+        "bands": [
+          {
+            "band": 0,
+            "n": 123,
+            "val_mean": 0.00228,
+            "test_mean": 0.00404,
+            "test_ci": [
+              0.00019,
+              0.00804
+            ]
+          },
+          {
+            "band": 1,
+            "n": 163,
+            "val_mean": 0.00267,
+            "test_mean": 0.00129,
+            "test_ci": [
+              -0.00151,
+              0.00398
+            ]
+          },
+          {
+            "band": 2,
+            "n": 149,
+            "val_mean": 0.00227,
+            "test_mean": 0.00467,
+            "test_ci": [
+              0.00159,
+              0.0078
+            ]
+          },
+          {
+            "band": 3,
+            "n": 170,
+            "val_mean": 0.00049,
+            "test_mean": 0.0008,
+            "test_ci": [
+              -0.00163,
+              0.00321
+            ]
+          },
+          {
+            "band": 4,
+            "n": 138,
+            "val_mean": 0.00144,
+            "test_mean": -0.00137,
+            "test_ci": [
+              -0.00438,
+              0.00167
+            ]
+          }
+        ]
+      },
+      "probe_entropy": {
+        "spearman_val": 0.0144,
+        "p_val": 0.6942,
+        "spearman_test": 0.0178,
+        "p_test": 0.6284,
+        "bands": [
+          {
+            "band": 0,
+            "n": 131,
+            "val_mean": 0.00262,
+            "test_mean": -0.00092,
+            "test_ci": [
+              -0.00369,
+              0.00176
+            ]
+          },
+          {
+            "band": 1,
+            "n": 140,
+            "val_mean": 0.00099,
+            "test_mean": 0.00446,
+            "test_ci": [
+              0.00145,
+              0.00762
+            ]
+          },
+          {
+            "band": 2,
+            "n": 158,
+            "val_mean": 0.00068,
+            "test_mean": 0.00084,
+            "test_ci": [
+              -0.00212,
+              0.00351
+            ]
+          },
+          {
+            "band": 3,
+            "n": 157,
+            "val_mean": 0.0041,
+            "test_mean": 0.00274,
+            "test_ci": [
+              -0.00046,
+              0.00587
+            ]
+          },
+          {
+            "band": 4,
+            "n": 157,
+            "val_mean": 0.00078,
+            "test_mean": 0.00181,
+            "test_ci": [
+              -0.0016,
+              0.00506
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "gates": {
+    "top1_sim": {
+      "val_auroc": 0.7522,
+      "threshold": 0.404,
+      "use_retrieval_when": "above",
+      "share_routed_to_retrieval_test": 0.915
+    },
+    "mean_sim": {
+      "val_auroc": 0.7553,
+      "threshold": 0.3655,
+      "use_retrieval_when": "above",
+      "share_routed_to_retrieval_test": 0.917
+    },
+    "sim_gap": {
+      "val_auroc": 0.744,
+      "threshold": 0.1546,
+      "use_retrieval_when": "below",
+      "share_routed_to_retrieval_test": 0.902
+    },
+    "nb_consensus": {
+      "val_auroc": 0.7639,
+      "threshold": 0.44,
+      "use_retrieval_when": "above",
+      "share_routed_to_retrieval_test": 0.206
+    },
+    "probe_nb_agree": {
+      "val_auroc": 0.7466,
+      "threshold": 0.6456,
+      "use_retrieval_when": "above",
+      "share_routed_to_retrieval_test": 0.93
+    },
+    "probe_entropy": {
+      "val_auroc": 0.7558,
+      "threshold": 0.651,
+      "use_retrieval_when": "below",
+      "share_routed_to_retrieval_test": 0.896
+    }
+  },
+  "gate_table": {
+    "probe": {
+      "test_mean": 0.746,
+      "test_std": 0.0038,
+      "vs_probe": null,
+      "vs_average": null
+    },
+    "retrieval": {
+      "test_mean": 0.7526,
+      "test_std": 0.0062,
+      "vs_probe": {
+        "mean": 0.0065,
+        "positive": 4,
+        "p": 0.074
+      },
+      "vs_average": {
+        "mean": -0.0068,
+        "positive": 0,
+        "p": 0.0334
+      }
+    },
+    "random_control": {
+      "test_mean": 0.7504,
+      "test_std": 0.0121,
+      "vs_probe": {
+        "mean": 0.0044,
+        "positive": 3,
+        "p": 0.4505
+      },
+      "vs_average": {
+        "mean": -0.0089,
+        "positive": 2,
+        "p": 0.1288
+      }
+    },
+    "average": {
+      "test_mean": 0.7593,
+      "test_std": 0.0036,
+      "vs_probe": {
+        "mean": 0.0133,
+        "positive": 5,
+        "p": 0.0
+      },
+      "vs_average": null
+    },
+    "oracle": {
+      "test_mean": 0.8115,
+      "test_std": 0.0095,
+      "vs_probe": {
+        "mean": 0.0654,
+        "positive": 5,
+        "p": 0.0
+      },
+      "vs_average": {
+        "mean": 0.0521,
+        "positive": 5,
+        "p": 0.0001
+      }
+    },
+    "routed:top1_sim": {
+      "test_mean": 0.7381,
+      "test_std": 0.0062,
+      "vs_probe": {
+        "mean": -0.0079,
+        "positive": 0,
+        "p": 0.0246
+      },
+      "vs_average": {
+        "mean": -0.0212,
+        "positive": 0,
+        "p": 0.0004
+      }
+    },
+    "routed:mean_sim": {
+      "test_mean": 0.7395,
+      "test_std": 0.0073,
+      "vs_probe": {
+        "mean": -0.0066,
+        "positive": 1,
+        "p": 0.0781
+      },
+      "vs_average": {
+        "mean": -0.0198,
+        "positive": 0,
+        "p": 0.0013
+      }
+    },
+    "routed:sim_gap": {
+      "test_mean": 0.7285,
+      "test_std": 0.0039,
+      "vs_probe": {
+        "mean": -0.0176,
+        "positive": 0,
+        "p": 0.001
+      },
+      "vs_average": {
+        "mean": -0.0309,
+        "positive": 0,
+        "p": 0.0
+      }
+    },
+    "routed:nb_consensus": {
+      "test_mean": 0.7464,
+      "test_std": 0.0037,
+      "vs_probe": {
+        "mean": 0.0003,
+        "positive": 3,
+        "p": 0.5683
+      },
+      "vs_average": {
+        "mean": -0.013,
+        "positive": 0,
+        "p": 0.0001
+      }
+    },
+    "routed:probe_nb_agree": {
+      "test_mean": 0.7418,
+      "test_std": 0.0059,
+      "vs_probe": {
+        "mean": -0.0042,
+        "positive": 2,
+        "p": 0.1518
+      },
+      "vs_average": {
+        "mean": -0.0175,
+        "positive": 0,
+        "p": 0.0008
+      }
+    },
+    "routed:probe_entropy": {
+      "test_mean": 0.7362,
+      "test_std": 0.0066,
+      "vs_probe": {
+        "mean": -0.0098,
+        "positive": 0,
+        "p": 0.0179
+      },
+      "vs_average": {
+        "mean": -0.0231,
+        "positive": 0,
+        "p": 0.0005
+      }
+    }
+  },
+  "calibration": {
+    "probe": {
+      "ece_mean": 0.2937,
+      "ece_std": 0.0236,
+      "brier_mean": 0.1515
+    },
+    "retrieval": {
+      "ece_mean": 0.0282,
+      "ece_std": 0.0029,
+      "brier_mean": 0.0604
+    },
+    "random_control": {
+      "ece_mean": 0.0297,
+      "ece_std": 0.0023,
+      "brier_mean": 0.0607
+    },
+    "average": {
+      "ece_mean": 0.155,
+      "ece_std": 0.0101,
+      "brier_mean": 0.0826
+    }
+  },
+  "oracle_headroom_vs_probe": 0.0654,
+  "best_gate": "routed:nb_consensus",
+  "verdict": "NO-GO: whether retrieved neighbours beat random ones does not depend on any reliability feature consistently on val and test. A reliability gate would have nothing retrieval-specific to exploit."
+}

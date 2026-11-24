@@ -1,0 +1,17 @@
+data:
+  manifest_csv: data/iu_xray/manifest.csv
+  image_root: data/iu_xray/images
+  patient_id_col: patient_id
+  split_ratios: [0.8, 0.1, 0.1]
+  split_seed: 42
+  label_vocab_size: 14
+
+model:
+  pretrained: true
+
+train:
+  batch_size: 16
+  learning_rate: 1.0e-4
+  epochs: 10
+  num_workers: 2
+  checkpoint_dir: checkpoints/arm1_iu_xray

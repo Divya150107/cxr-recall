@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+/data/
+checkpoints/
+*.egg-info/
+.pytest_cache/
+*.ckpt
+*.pt
+wandb/
+
+# report kept local only (not published)
+REPORT.md
+REPORT.pdf
+scripts/build_report_pdf.py
